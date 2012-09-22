@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBF5836A160DFC12003C6056 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DBF58369160DFC12003C6056 /* main.c */; };
+		DBF5836C160DFC12003C6056 /* Embedded_IQ_Floats.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBF5836B160DFC12003C6056 /* Embedded_IQ_Floats.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBF58363160DFC11003C6056 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				DBF5836C160DFC12003C6056 /* Embedded_IQ_Floats.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DBF58365160DFC12003C6056 /* Embedded IQ Floats */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Embedded IQ Floats"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF58369160DFC12003C6056 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DBF5836B160DFC12003C6056 /* Embedded_IQ_Floats.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Embedded_IQ_Floats.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBF58362160DFC11003C6056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBF5835A160DFC11003C6056 = {
+			isa = PBXGroup;
+			children = (
+				DBF58368160DFC12003C6056 /* Embedded IQ Floats */,
+				DBF58366160DFC12003C6056 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBF58366160DFC12003C6056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBF58365160DFC12003C6056 /* Embedded IQ Floats */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBF58368160DFC12003C6056 /* Embedded IQ Floats */ = {
+			isa = PBXGroup;
+			children = (
+				DBF58369160DFC12003C6056 /* main.c */,
+				DBF5836B160DFC12003C6056 /* Embedded_IQ_Floats.1 */,
+			);
+			path = "Embedded IQ Floats";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBF58364160DFC11003C6056 /* Embedded IQ Floats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF5836F160DFC12003C6056 /* Build configuration list for PBXNativeTarget "Embedded IQ Floats" */;
+			buildPhases = (
+				DBF58361160DFC11003C6056 /* Sources */,
+				DBF58362160DFC11003C6056 /* Frameworks */,
+				DBF58363160DFC11003C6056 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Embedded IQ Floats";
+			productName = "Embedded IQ Floats";
+			productReference = DBF58365160DFC12003C6056 /* Embedded IQ Floats */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBF5835C160DFC11003C6056 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Arturo Javier Hernández Barrón";
+			};
+			buildConfigurationList = DBF5835F160DFC11003C6056 /* Build configuration list for PBXProject "Embedded IQ Floats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DBF5835A160DFC11003C6056;
+			productRefGroup = DBF58366160DFC12003C6056 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBF58364160DFC11003C6056 /* Embedded IQ Floats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBF58361160DFC11003C6056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF5836A160DFC12003C6056 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DBF5836D160DFC12003C6056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DBF5836E160DFC12003C6056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DBF58370160DFC12003C6056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBF58371160DFC12003C6056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBF5835F160DFC11003C6056 /* Build configuration list for PBXProject "Embedded IQ Floats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF5836D160DFC12003C6056 /* Debug */,
+				DBF5836E160DFC12003C6056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF5836F160DFC12003C6056 /* Build configuration list for PBXNativeTarget "Embedded IQ Floats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF58370160DFC12003C6056 /* Debug */,
+				DBF58371160DFC12003C6056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBF5835C160DFC11003C6056 /* Project object */;
+}
